@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>We really love simple,
+      clean web sites - Extendio
+    </title>
+    <meta name="author" content="Extendio Media" />
+    <meta name="description" content="Extendio is a small web design studio that builds simple, clean, usable web sites, combining creative design and web standards to deliver beautiful results that leave an impact on the user.">
+    <meta name="keywords" content="creative, agile team" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Amatic+SC|" type="text/css">
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+        background: #C14040;
+        background: linear-gradient(to top left, #C14040 0%, #D32A2A 100%)
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: all .5s ease-in-out;
+      }
+      a:hover {
+        color: rgba(0,0,0, .3);
+      }
+      .logo {
+        margin: 0 0 20vh;
+      }
+      .logo__svg {
+        width: 60vw;
+        height: auto;
+        fill: #fff;
+        transition: all .5s ease-in-out;
+      }
+      .header {}
+      .content {
+        display: flex;
+        flex-direction: column;
+      }
+      .site {
+        font-size: 3vw;
+        margin-bottom: 5vh;
+        letter-spacing: .3em;
+        text-transform: uppercase;
+        text-align: center;
+        opacity: .5;
+      }
+      
+      footer {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      .version {
+        display: block;
+        color: #fff;
+        font-size: 16px;
+        border: 2px solid #fff;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        overflow: hidden;
+      }
+      .version:hover {
+        border-color: #666;
+      }
+      
+      @media screen and (min-width: 1024px) {
+        .logo {
+          margin-bottom: 5vw;
+        }
+        .logo__svg {
+          width: 28vw;
+        }
+        .content {
+          flex-direction: row;
+        }
+        .site {
+          margin: 0 3vw;
+          font-size: 1vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">
+        <svg class="logo__svg" viewBox="0 0 1224 207" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.808 183.552h43.2c-2.304 5.184-5.76 13.248-6.624 14.976-1.44 2.592-4.608 5.472-11.232 5.472h-46.08v-195.84c.288-3.168 2.88-5.76 6.336-5.76h53.856l-6.912 14.976c-1.152 2.592-4.32 5.76-10.944 5.76h-16.704c-2.88 0-4.896 2.016-4.896 4.896v59.904h31.104c-2.304 5.184-5.76 13.536-6.624 15.264-1.44 2.592-4.32 5.472-10.944 5.472h-8.64c-2.592 0-4.896 2.304-4.896 4.896v69.984zm156.384 20.448h-23.904l31.968-106.848-27.072-94.752h16.128c.864 0 6.048 0 8.064 6.912l14.688 53.568 13.824-53.568c2.016-6.912 7.2-6.912 8.064-6.912h16.128l-25.92 95.04 29.952 106.56h-22.464l-18.72-73.152-20.736 73.152zm232.416-201.6l-6.912 14.976c-1.152 2.592-4.32 5.472-10.944 5.472h-16.128c-2.88 0-4.896 2.304-5.184 4.896v176.256h-14.688c-4.896 0-5.76-2.88-5.76-4.32v-176.832h-29.088v-14.112c0-3.456 2.88-6.336 6.336-6.336h82.368zm115.2 181.152h43.2c-2.304 5.184-5.76 13.248-6.624 14.976-1.44 2.592-4.608 5.472-11.232 5.472h-46.08v-195.84c.288-3.168 2.88-5.76 6.336-5.76h53.856l-6.912 14.976c-1.152 2.592-4.32 5.76-10.944 5.76h-16.704c-2.88 0-4.896 2.016-4.896 4.896v59.904h31.104c-2.304 5.184-5.76 13.536-6.624 15.264-1.44 2.592-4.32 5.472-10.944 5.472h-8.64c-2.592 0-4.896 2.304-4.896 4.896v69.984zm208.512-181.152v201.6h-9.504c-11.232 0-12.96-8.928-13.824-12.96l-22.176-99.648v112.608h-20.736v-201.6h9.504c11.52 0 13.536 5.472 14.688 11.232l21.312 104.832v-116.064h20.736zm106.848 0h40.032c14.112 0 25.344 11.232 25.632 25.344v150.912c-.288 14.112-11.52 25.344-25.632 25.344h-40.032v-201.6zm45.216 170.496v-139.392c0-7.488-5.184-10.368-10.944-10.368h-13.536v160.416h13.536c5.76 0 10.944-2.88 10.944-10.656zm135.648-170.496h12.384c6.048 0 8.352 4.608 8.352 8.064v193.536h-14.688c-4.896 0-5.76-2.88-6.048-4.32v-197.28zm161.28-2.016h15.84c13.824.576 25.056 11.808 25.056 25.632v154.656c-.288 13.824-11.232 24.768-25.056 25.344h-15.84c-14.112 0-25.632-11.52-25.92-25.344v-154.656c0-14.112 11.52-25.632 25.92-25.632zm5.76 187.488h3.168c6.048 0 10.944-4.896 10.944-11.232v-146.88c0-6.336-4.896-11.232-10.944-11.232h-3.168c-6.048.288-10.944 5.184-10.944 11.232v146.88c0 6.048 4.896 10.944 10.944 11.232z" class="logo-path" />
+        </svg>
+      </h1>
+    </header>
+    <section class="content">
+      <aside class="site"><a href="http://ovidiuion.com" target="_blank">ovidiuion.com</a></aside>
+      <aside class="site"><a href="http://gabischiopu.com" target="_blank">gabischiopu.com</a></aside>
+    </section>
+    <footer>
+      <a class="version" href="/v1" title="Check Version 1" target="_blank">V1</a>
+    </footer>
+  </body>
+</html>
