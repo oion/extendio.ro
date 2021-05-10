@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/fingerontheweb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://extendio.ro
+  * I am fingerontheweb (https://keybase.io/fingerontheweb) on keybase.
+  * I have a public key ASDdEAp08QGlFPFpKH70XUUhNUqAm1VEI2iwuDMfnYI6ogo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e3057d07b23d91fd7b6cbd40f26a88af480fb41ed53e59ee084be5d6dfaccaec0a",
+      "host": "keybase.io",
+      "kid": "0120dd100a74f101a514f169287ef45d4521354a809b55442368b0b8331f9d823aa20a",
+      "uid": "d9cce7bdba0792c488add6eb76904919",
+      "username": "fingerontheweb"
+    },
+    "merkle_root": {
+      "ctime": 1620660192,
+      "hash": "ae72aa8738f975a997c9e72fa91f595e4a28a9c3d1e04ecbeb38804e5af1d36b2759725634ee00bd6803fe358773d7ce799db7726121f7ac565eebd0dbfbe36b",
+      "hash_meta": "9f410ffb9d1b741815b56e10b3cd032d2e3ce16969624a1bf454e2aaf553e2dc",
+      "seqno": 19897676
+    },
+    "service": {
+      "entropy": "6Q9VojqAzMCXbdySrtGMyhDm",
+      "hostname": "extendio.ro",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1620660221,
+  "expire_in": 504576000,
+  "prev": "c6fa4cf2ecb9966eda3c971f4ad62d90c9daeb23f4cf716712d5daf1522da2e9",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3RAKdPEBpRTxaSh+9F1FITVKgJtVRCNosLgzH52COqIKp3BheWxvYWTESpcCD8QgxvpM8uy5lm7aPJcfStYtkMna6yP0z3FnEtXa8VItounEIEa8IwLEHL9LIx6+oFoi6p6tzhOzFvn6IXioed9I/zK2AgHCo3NpZ8RA8Z+04or5wm3cxMc9IwAp8lminrZTBGNI8yGg9xBJHXAtpw4cNjefbLHkIxB1Bnyj6pjYF3/+aQkegJhr10sHC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGIQN0VqzEA2RItUMIXadrTbWu/BH5PnO1JUb/r8idcGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fingerontheweb
+
+==================================================================
